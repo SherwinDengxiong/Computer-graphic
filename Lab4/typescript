@@ -1,0 +1,303 @@
+Script started on Sun Apr  2 01:18:47 2017
+]2; cscix10: ~/Labs/tess/solution/c++ ]1;cscix10Looking for ~wrc/.bashrc.f2y file to execute.
+Found.
+]2; vienna: ~/Labs/tess/solution/c++ 
+cscix10@vienna:~/Labs/tess/solution/c++[1]$ make
+g++ -g  -DGL_GLEXT_PROTOTYPES  -c Shapes.cpp
+In file included from [01m[KCanvas.h:22:0[m[K,
+                 from [01m[KShapes.h:12[m[K,
+                 from [01m[KShapes.cpp:16[m[K:
+[01m[K/usr/include/GL/glew.h:85:2:[m[K [01;31m[Kerror: [m[K#error gl.h included before glew.h
+ #error gl.h included before glew.h
+[01;32m[K  ^[m[K
+[01m[K/usr/include/GL/glew.h:97:2:[m[K [01;31m[Kerror: [m[K#error glext.h included before glew.h
+ #error glext.h included before glew.h
+[01;32m[K  ^[m[K
+In file included from [01m[KCanvas.h:22:0[m[K,
+                 from [01m[KShapes.h:12[m[K,
+                 from [01m[KShapes.cpp:16[m[K:
+[01m[K/usr/include/GL/glew.h:15755:93:[m[K [01;31m[Kerror: [m[Kconflicting declaration '[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTMODELFVSGIXPROC)(GLenum, GLfloat*)[m[K'
+ LAPIENTRY * PFNGLFRAGMENTLIGHTMODELFVSGIXPROC) (GLenum pname, GLfloat* params);
+[01;32m[K                                                                              ^[m[K
+In file included from [01m[K/usr/include/GL/gl.h:2055:0[m[K,
+                 from [01m[K/usr/include/GLFW/glfw3.h:153[m[K,
+                 from [01m[KShapes.cpp:12[m[K:
+[01m[K/usr/include/GL/glext.h:11606:25:[m[K [01;36m[Knote: [m[Kprevious declaration as '[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTMODELFVSGIXPROC)(GLenum, const GLfloat*)[m[K'
+ typedef void (APIENTRYP PFNGLFRAGMENTLIGHTMODELFVSGIXPROC) (GLenum pname, const
+[01;32m[K                         ^[m[K
+In file included from [01m[KCanvas.h:22:0[m[K,
+                 from [01m[KShapes.h:12[m[K,
+                 from [01m[KShapes.cpp:16[m[K:
+[01m[K/usr/include/GL/glew.h:15757:91:[m[K [01;31m[Kerror: [m[Kconflicting declaration '[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTMODELIVSGIXPROC)(GLenum, GLint*)[m[K'
+ (GLAPIENTRY * PFNGLFRAGMENTLIGHTMODELIVSGIXPROC) (GLenum pname, GLint* params);
+[01;32m[K                                                                              ^[m[K
+In file included from [01m[K/usr/include/GL/gl.h:2055:0[m[K,
+                 from [01m[K/usr/include/GLFW/glfw3.h:153[m[K,
+                 from [01m[KShapes.cpp:12[m[K:
+[01m[K/usr/include/GL/glext.h:11608:25:[m[K [01;36m[Knote: [m[Kprevious declaration as '[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTMODELIVSGIXPROC)(GLenum, const GLint*)[m[K'
+ typedef void (APIENTRYP PFNGLFRAGMENTLIGHTMODELIVSGIXPROC) (GLenum pname, const
+[01;32m[K                         ^[m[K
+In file included from [01m[KCanvas.h:22:0[m[K,
+                 from [01m[KShapes.h:12[m[K,
+                 from [01m[KShapes.cpp:16[m[K:
+[01m[K/usr/include/GL/glew.h:15759:102:[m[K [01;31m[Kerror: [m[Kconflicting declaration '[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTFVSGIXPROC)(GLenum, GLenum, GLfloat*)[m[K'
+  * PFNGLFRAGMENTLIGHTFVSGIXPROC) (GLenum light, GLenum pname, GLfloat* params);
+[01;32m[K                                                                              ^[m[K
+In file included from [01m[K/usr/include/GL/gl.h:2055:0[m[K,
+                 from [01m[K/usr/include/GLFW/glfw3.h:153[m[K,
+                 from [01m[KShapes.cpp:12[m[K:
+[01m[K/usr/include/GL/glext.h:11602:25:[m[K [01;36m[Knote: [m[Kprevious declaration as '[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTFVSGIXPROC)(GLenum, GLenum, const GLfloat*)[m[K'
+ typedef void (APIENTRYP PFNGLFRAGMENTLIGHTFVSGIXPROC) (GLenum light, GLenum pna
+[01;32m[K                         ^[m[K
+In file included from [01m[KCanvas.h:22:0[m[K,
+                 from [01m[KShapes.h:12[m[K,
+                 from [01m[KShapes.cpp:16[m[K:
+[01m[K/usr/include/GL/glew.h:15761:100:[m[K [01;31m[Kerror: [m[Kconflicting declaration '[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTIVSGIXPROC)(GLenum, GLenum, GLint*)[m[K'
+ RY * PFNGLFRAGMENTLIGHTIVSGIXPROC) (GLenum light, GLenum pname, GLint* params);
+[01;32m[K                                                                              ^[m[K
+In file included from [01m[K/usr/include/GL/gl.h:2055:0[m[K,
+                 from [01m[K/usr/include/GLFW/glfw3.h:153[m[K,
+                 from [01m[KShapes.cpp:12[m[K:
+[01m[K/usr/include/GL/glext.h:11604:25:[m[K [01;36m[Knote: [m[Kprevious declaration as '[01m[Ktypedef void (* PFNGLFRAGMENTLIGHTIVSGIXPROC)(GLenum, GLenum, const GLint*)[m[K'
+ typedef void (APIENTRYP PFNGLFRAGMENTLIGHTIVSGIXPROC) (GLenum light, GLenum pna
+[01;32m[K                         ^[m[K
+In file included from [01m[KCanvas.h:22:0[m[K,
+                 from [01m[KShapes.h:12[m[K,
+                 from [01m[KShapes.cpp:16[m[K:
+[01m[K/usr/include/GL/glew.h:15768:111:[m[K [01;31m[Kerror: [m[Kconflicting declaration '[01m[Ktypedef void (* PFNGLGETFRAGMENTMATERIALFVSGIXPROC)(GLenum, GLenum, const GLfloat*)[m[K'
+ ETFRAGMENTMATERIALFVSGIXPROC) (GLenum face, GLenum pname, const GLfloat* data);
+[01;32m[K                                                                              ^[m[K
+In file included from [01m[K/usr/include/GL/gl.h:2055:0[m[K,
+                 from [01m[K/usr/include/GLFW/glfw3.h:153[m[K,
+                 from [01m[KShapes.cpp:12[m[K:
+[01m[K/usr/include/GL/glext.h:11615:25:[m[K [01;36m[Knote: [m[Kprevious declaration as '[01m[Ktypedef void (* PFNGLGETFRAGMENTMATERIALFVSGIXPROC)(GLenum, GLenum, GLfloat*)[m[K'
+ typedef void (APIENTRYP PFNGLGETFRAGMENTMATERIALFVSGIXPROC) (GLenum face, GLenu
+[01;32m[K                         ^[m[K
+In file included from [01m[KCanvas.h:22:0[m[K,
+                 from [01m[KShapes.h:12[m[K,
+                 from [01m[KShapes.cpp:16[m[K:
+[01m[K/usr/include/GL/glew.h:15769:109:[m[K [01;31m[Kerror: [m[Kconflicting declaration '[01m[Ktypedef void (* PFNGLGETFRAGMENTMATERIALIVSGIXPROC)(GLenum, GLenum, const GLint*)[m[K'
+ LGETFRAGMENTMATERIALIVSGIXPROC) (GLenum face, GLenum pname, const GLint* data);
+[01;32m[K                                                                              ^[m[K
+In file included from [01m[K/usr/include/GL/gl.h:2055:0[m[K,
+                 from [01m[K/usr/include/GLFW/glfw3.h:153[m[K,
+                 from [01m[KShapes.cpp:12[m[K:
+[01m[K/usr/include/GL/glext.h:11616:25:[m[K [01;36m[Knote: [m[Kprevious declaration as '[01m[Ktypedef void (* PFNGLGETFRAGMENTMATERIALIVSGIXPROC)(GLenum, GLenum, GLint*)[m[K'
+ typedef void (APIENTRYP PFNGLGETFRAGMENTMATERIALIVSGIXPROC) (GLenum face, GLenu
+[01;32m[K                         ^[m[K
+In file included from [01m[KCanvas.h:22:0[m[K,
+                 from [01m[KShapes.h:12[m[K,
+                 from [01m[KShapes.cpp:16[m[K:
+[01m[K/usr/include/GL/glew.h:16432:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCLIENTACTIVETEXTUREPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCLIENTACTIVETEXTUREPROC __glewClientActiveTexture;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16440:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLLOADTRANSPOSEMATRIXDPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLLOADTRANSPOSEMATRIXDPROC __glewLoadTransposeMatrixd;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16441:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLLOADTRANSPOSEMATRIXFPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLLOADTRANSPOSEMATRIXFPROC __glewLoadTransposeMatrixf;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16442:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTTRANSPOSEMATRIXDPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTTRANSPOSEMATRIXDPROC __glewMultTransposeMatrixd;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16443:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTTRANSPOSEMATRIXFPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTTRANSPOSEMATRIXFPROC __glewMultTransposeMatrixf;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16444:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD1DPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD1DPROC __glewMultiTexCoord1d;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16445:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD1DVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD1DVPROC __glewMultiTexCoord1dv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16446:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD1FPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD1FPROC __glewMultiTexCoord1f;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16447:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD1FVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD1FVPROC __glewMultiTexCoord1fv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16448:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD1IPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD1IPROC __glewMultiTexCoord1i;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16449:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD1IVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD1IVPROC __glewMultiTexCoord1iv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16450:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD1SPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD1SPROC __glewMultiTexCoord1s;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16451:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD1SVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD1SVPROC __glewMultiTexCoord1sv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16452:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD2DPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD2DPROC __glewMultiTexCoord2d;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16453:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD2DVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD2DVPROC __glewMultiTexCoord2dv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16454:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD2FPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD2FPROC __glewMultiTexCoord2f;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16455:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD2FVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD2FVPROC __glewMultiTexCoord2fv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16456:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD2IPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD2IPROC __glewMultiTexCoord2i;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16457:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD2IVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD2IVPROC __glewMultiTexCoord2iv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16458:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD2SPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD2SPROC __glewMultiTexCoord2s;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16459:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD2SVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD2SVPROC __glewMultiTexCoord2sv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16460:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD3DPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD3DPROC __glewMultiTexCoord3d;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16461:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD3DVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD3DVPROC __glewMultiTexCoord3dv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16462:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD3FPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD3FPROC __glewMultiTexCoord3f;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16463:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD3FVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD3FVPROC __glewMultiTexCoord3fv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16464:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD3IPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD3IPROC __glewMultiTexCoord3i;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16465:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD3IVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD3IVPROC __glewMultiTexCoord3iv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16466:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD3SPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD3SPROC __glewMultiTexCoord3s;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16467:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD3SVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD3SVPROC __glewMultiTexCoord3sv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16468:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD4DPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD4DPROC __glewMultiTexCoord4d;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16469:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD4DVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD4DVPROC __glewMultiTexCoord4dv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16470:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD4FPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD4FPROC __glewMultiTexCoord4f;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16471:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD4FVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD4FVPROC __glewMultiTexCoord4fv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16472:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD4IPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD4IPROC __glewMultiTexCoord4i;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16473:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD4IVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD4IVPROC __glewMultiTexCoord4iv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16474:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD4SPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD4SPROC __glewMultiTexCoord4s;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:16475:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMULTITEXCOORD4SVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMULTITEXCOORD4SVPROC __glewMultiTexCoord4sv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17106:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCOLORSUBTABLEPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCOLORSUBTABLEPROC __glewColorSubTable;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17107:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCOLORTABLEPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCOLORTABLEPROC __glewColorTable;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17108:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCOLORTABLEPARAMETERFVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCOLORTABLEPARAMETERFVPROC __glewColorTableParameterfv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17109:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCOLORTABLEPARAMETERIVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCOLORTABLEPARAMETERIVPROC __glewColorTableParameteriv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17110:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCONVOLUTIONFILTER1DPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCONVOLUTIONFILTER1DPROC __glewConvolutionFilter1D;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17111:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCONVOLUTIONFILTER2DPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCONVOLUTIONFILTER2DPROC __glewConvolutionFilter2D;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17112:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCONVOLUTIONPARAMETERFPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCONVOLUTIONPARAMETERFPROC __glewConvolutionParameterf;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17113:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCONVOLUTIONPARAMETERFVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCONVOLUTIONPARAMETERFVPROC __glewConvolutionParameterfv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17114:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCONVOLUTIONPARAMETERIPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCONVOLUTIONPARAMETERIPROC __glewConvolutionParameteri;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17115:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCONVOLUTIONPARAMETERIVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCONVOLUTIONPARAMETERIVPROC __glewConvolutionParameteriv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17116:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCOPYCOLORSUBTABLEPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCOPYCOLORSUBTABLEPROC __glewCopyColorSubTable;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17117:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCOPYCOLORTABLEPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCOPYCOLORTABLEPROC __glewCopyColorTable;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17118:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCOPYCONVOLUTIONFILTER1DPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCOPYCONVOLUTIONFILTER1DPROC __glewCopyConvolutionFilter1D;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17119:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLCOPYCONVOLUTIONFILTER2DPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLCOPYCONVOLUTIONFILTER2DPROC __glewCopyConvolutionFilter2D;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17120:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETCOLORTABLEPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETCOLORTABLEPROC __glewGetColorTable;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17121:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETCOLORTABLEPARAMETERFVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETCOLORTABLEPARAMETERFVPROC __glewGetColorTableParameterf
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17122:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETCOLORTABLEPARAMETERIVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETCOLORTABLEPARAMETERIVPROC __glewGetColorTableParameteri
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17123:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETCONVOLUTIONFILTERPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETCONVOLUTIONFILTERPROC __glewGetConvolutionFilter;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17124:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETCONVOLUTIONPARAMETERFVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETCONVOLUTIONPARAMETERFVPROC __glewGetConvolutionParamete
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17125:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETCONVOLUTIONPARAMETERIVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETCONVOLUTIONPARAMETERIVPROC __glewGetConvolutionParamete
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17126:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETHISTOGRAMPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETHISTOGRAMPROC __glewGetHistogram;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17127:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETHISTOGRAMPARAMETERFVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETHISTOGRAMPARAMETERFVPROC __glewGetHistogramParameterfv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17128:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETHISTOGRAMPARAMETERIVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETHISTOGRAMPARAMETERIVPROC __glewGetHistogramParameteriv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17129:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETMINMAXPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETMINMAXPROC __glewGetMinmax;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17130:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETMINMAXPARAMETERFVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETMINMAXPARAMETERFVPROC __glewGetMinmaxParameterfv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17131:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETMINMAXPARAMETERIVPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETMINMAXPARAMETERIVPROC __glewGetMinmaxParameteriv;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17132:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLGETSEPARABLEFILTERPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLGETSEPARABLEFILTERPROC __glewGetSeparableFilter;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17133:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLHISTOGRAMPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLHISTOGRAMPROC __glewHistogram;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17134:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLMINMAXPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLMINMAXPROC __glewMinmax;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17135:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLRESETHISTOGRAMPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLRESETHISTOGRAMPROC __glewResetHistogram;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17136:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLRESETMINMAXPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLRESETMINMAXPROC __glewResetMinmax;
+[01;32m[K                 ^[m[K
+[01m[K/usr/include/GL/glew.h:17137:17:[m[K [01;31m[Kerror: [m[K'[01m[KPFNGLSEPARABLEFILTER2DPROC[m[K' does not name a type
+ GLEW_FUN_EXPORT PFNGLSEPARABLEFILTER2DPROC __glewSeparableFilter2D;
+[01;32m[K                 ^[m[K
+Makefile:16: recipe for target 'Shapes.o' failed
+make: *** [Shapes.o] Error 1
+
+cscix10@vienna:~/Labs/tess/solution/c++[2]$ exit
+
+Script done on Sun Apr  2 01:18:50 2017
