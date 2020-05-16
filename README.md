@@ -7,3 +7,7 @@ lab 2 polygon filling is not running at this time, but i put the polygon fill al
 
 # set up
 the set up procedure is lab0 in the course
+here is the set up guide on visual studio
+https://www.youtube.com/watch?v=iWUWRNZIo8A&feature=youtu.be
+
+is you run the code in linux, use gmake.
