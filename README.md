@@ -1,4 +1,4 @@
-# CSCI610
+# Computer graphic
 # overview
 this CSCI 610 project is a computer graphic project written in C++
 the project include 5 labs and 2 test projects.
