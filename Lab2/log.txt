@@ -1,0 +1,17 @@
+commit db7a12457ebf9765b789fe487afe668904268b43
+Author: sherwin <sd6384@rit.edu>
+Date:   Tue Feb 25 16:10:19 2020 -0500
+
+    lab2
+
+commit 30c951878034ac7c55a5007ba325b68206c876ba
+Author: sherwin <sd6384@rit.edu>
+Date:   Mon Feb 24 22:26:01 2020 -0500
+
+    lab2
+
+commit b53f31cdb2aa8412efb0439f1c5bdb9799b73ab3
+Author: sherwin <sd6384@rit.edu>
+Date:   Mon Feb 24 22:24:24 2020 -0500
+
+    lab2
