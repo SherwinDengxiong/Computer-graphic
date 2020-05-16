@@ -1,0 +1,45 @@
+style and docement 
+
+this program implement some algorithm in computer graphic
+the first picture draw the polyfon in the canvas;
+
+parameters
+
+vertexlist   store all the vertex line by line for the plotting
+clipinfo    the x y coordinate of the clip window
+resultmat   the normalize and transform matrix
+
+curmat       the changes of the polygon including translate, slope, rotate shown as matrix
+
+polyid     is the id of the polygon
+
+
+in this picture, i create edge struct
+
+edge contains 
+x the x of min y
+ymax the max y
+ymin the min y
+dx the xmax-xmin
+dy 
+slope dy/dx
+inter;
+
+createedgetable is to create an edge table according to the edge information.
+in the begin, edges will be stored according to its lowest y coordinate.
+
+dothedraw   this method is to use edgetable and scan line by line to fill the polygon
+
+vectorsort   this method is to sort the edge in the AET according to the x coordinate of lowest y and its slope;
+
+in the transform procedure the x and y coordinate will be influenced by the view and the clip information
+
+multiply this method is to do the multiply of the matrix. it only used in 3*3 matrix;
+
+in the clippolygon procedure we need to clip polygon in a rectangle 
+
+clippolygon     this method is to return the vertex after cliping
+
+is outside    this method is to dicided vertex is outside
+
+find junction   this method is to find the junction of the cliping edge and the actual edge and return the vertex of the junction.
