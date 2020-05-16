@@ -1,0 +1,31 @@
+in this lab the program use GLSL to implement the projection procedure
+
+in viewing.cpp
+setupfrustum 
+use the gluniform1f(loc,1)  to setup. location name is Projectiontype
+
+
+setuportho
+gluniform1f(loc,2) to set up
+
+clearTransforms
+set the rotate to {0,0,0}
+set the scale to {1,1,1}
+set the translate to {0,0,0}
+
+use glUniform3fv(loc , count, vector) to prefrom each list
+
+
+setuptransform
+also use gluniform3fv(loc ,count ,vector) to preform each list 
+
+clearcamera
+set the camera to {0,0,0}
+set the look to {0,0,-1}
+set the up to {0,1,0}
+use glUniform3fv(loc , count, vector) to prefrom each list
+
+
+setuptransform
+set the camera, look, up
+use glUniform3fv(loc , count, vector) to prefrom each list
